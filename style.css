@@ -1,0 +1,131 @@
+
+body {
+  color: #453524;
+  font-family: 'Roboto Slab', sans-serif;
+  margin: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: bold;
+}
+
+.main-wrapper .container {
+  margin: auto;
+  width: 800px;
+}
+
+.btn-default {
+  background-color: #efd8a1;
+  color: #453524;
+}
+.btn-default:hover {
+  background-color: #ae7e5b;
+  color: #FFF;
+  text-shadow: 0 0 1px #000;
+}
+
+input.form-control,
+select.form-control,
+textarea.form-control {
+  background-color: #f6f2ec;
+}
+
+form label {
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.radio-inline label {
+  font-size: inherit;
+}
+
+/**
+ * Header
+ */
+.logo {
+  text-align: center;
+}
+.logo img {
+  height: 150px;
+  margin: 20px auto -20px;
+  width: auto;
+}
+.logo h1 {
+  font-size: 64px;
+}
+.logo .tagline {
+  font-size: 32px;
+  font-weight: 100;
+  margin-top: -15px;
+}
+
+/**
+ * Review form
+ */
+.review-form-wrapper {
+  margin: 50px auto -20px;
+}
+
+/**
+ * Review list
+ */
+.results-wrapper {
+  margin: 0 auto 25px;
+}
+
+.review {
+  position: relative;
+}
+.review .review-item,
+.review .review-rating {
+  display: inline-block;
+}
+.review .review-comment {
+  padding: 0 20px;
+}
+.review .review-date {
+  font-size: 12px;
+  font-style: italic;
+}
+
+/**
+ * Footer
+ */
+footer {
+  height: 200px;
+}
+footer .logo {
+  margin-top: 30px;
+}
+footer .logo img {
+  margin-bottom: 0;
+  max-height: 50px;
+}
+footer .logo .tagline {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+/**
+ * Signup Form/Sent
+ */
+.signup-sent,
+.signup-form {
+  height: 200px;
+}
+.signup-form {
+  margin-top: 15px;
+}
+.signup-sent {
+  margin-top: 50px;
+  text-align: center;
+}
+.signup-sent h5 {
+  font-size: 28px;
+}
